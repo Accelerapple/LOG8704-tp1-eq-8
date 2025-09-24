@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "Right Hand",
+            "id": "e38fe5f5-1913-4f98-b9fa-13f0a4f0b704",
+            "actions": [
+                {
+                    "name": "TeleportActivate_R",
+                    "type": "Button",
+                    "id": "c4c2179d-9df5-4add-8ca9-04c3138705e7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TeleportConfirm_R",
+                    "type": "Button",
+                    "id": "6461bc4c-c996-410e-a2b2-76de6852d6d7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "92fcae28-a209-4f2f-ac33-2311b924ffd5",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TeleportActivate_R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27e5d719-4138-48f3-9dfc-0cfbd8303694",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TeleportActivate_R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "536f157b-1b8d-4e24-8a23-4eb8daaf636e",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TeleportConfirm_R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
